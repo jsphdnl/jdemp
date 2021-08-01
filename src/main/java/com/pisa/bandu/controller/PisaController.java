@@ -10,4 +10,9 @@ public class PisaController {
     public String getPisaStatus(){
         return "I am alive";
     }
+
+    @GetMapping("/newfeature")
+    public String getPStatus(){
+        return "new feature";
+    }
 }
